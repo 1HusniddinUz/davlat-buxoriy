@@ -1,0 +1,20 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body
+{
+    scroll-behavior: smooth;
+    scrollbar-gutter: stable both-edges;
+    -webkit-overflow-scrolling: touch;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+a , li
+{
+    text-decoration: none;
+    list-style: none;
+}

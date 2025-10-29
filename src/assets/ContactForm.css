@@ -1,0 +1,158 @@
+/* Minimal & nafis stil. Hech qanday :root yoki CSS o'zgaruvchilari YO'Q. */
+
+/* Layout */
+.cf {
+    background-color: #f8f8f6;
+    color: #111111;
+    padding: 48px 16px;
+}
+.cf__container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.cf__card {
+    background: #ffffff;
+    border: 1px solid #ececec;
+    border-radius: 16px;
+    padding: 28px;
+    box-shadow: 0 6px 24px rgba(17, 17, 17, 0.04);
+}
+.cf__header {
+    margin-bottom: 20px;
+}
+.cf__title {
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    margin: 0 0 6px 0;
+}
+.cf__subtitle {
+    margin: 0;
+    font-size: 15px;
+    color: #4a4a4a;
+}
+/* Social links */
+.cf__social {
+    display: flex;
+    gap: 12px;
+    margin: 14px 0 18px 0;
+}
+.cf__social a {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    color: #111111;
+    background: #ffffff;
+    transition: transform 150ms ease, background-color 150ms ease, border-color 150ms ease;
+}
+.cf__social a:hover {
+    transform: translateY(-2px);
+    background-color: #f2f2f2;
+    border-color: #dcdcdc;
+}
+.cf__social i {
+    font-size: 18px;
+}
+/* Form */
+.cf__form {
+    display: grid;
+    gap: 16px;
+}
+.cf__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+.cf__field {
+    display: grid;
+    gap: 8px;
+}
+.cf__label {
+    font-size: 13px;
+    color: #333333;
+}
+.cf__input {
+    height: 48px;
+    padding: 0 14px;
+    border: 1px solid #e2e2e2;
+    border-radius: 12px;
+    background-color: #fcfcfb;
+    color: #111111;
+    outline: none;
+    transition: border-color 150ms ease, box-shadow 150ms ease, background-color 150ms ease;
+}
+.cf__input:hover {
+    background-color: #fafafa;
+}
+.cf__input:focus {
+    border-color: #1f2937;
+    box-shadow: 0 0 0 3px rgba(31, 41, 55, 0.15);
+    background-color: #ffffff;
+}
+
+.cf__input[aria-invalid="true"]:not(:focus) {
+    border-color: #d97706;
+}
+.cf__hint {
+    font-size: 12px;
+    color: #6b7280;
+}
+/* Submit button */
+.cf__btn {
+    margin-top: 6px;
+    height: 48px;
+    padding: 0 18px;
+    border: 1px solid #111111;
+    border-radius: 12px;
+    background-color: #111111;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    transition: transform 120ms ease, background-color 150ms ease, border-color 150ms ease, color 150ms ease;
+    cursor: pointer;
+}
+
+.cf__btn:hover {
+    transform: translateY(-1px);
+    background-color: #0f0f0f;
+    border-color: #0f0f0f;
+}
+.cf__btn:disabled,
+.cf__btn[aria-disabled="true"] {
+    cursor: not-allowed;
+    background-color: #cfcfcf;
+    border-color: #cfcfcf;
+    color: #ffffff;
+    transform: none;
+}
+/* Map */
+.cf__mapwrap {
+    margin-top: 22px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #ececec;
+    background: #ffffff;
+}
+.cf__mapwrap iframe {
+    display: block;
+    width: 100%;
+    height: 360px;
+    border: 0;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+    .cf__row {
+        grid-template-columns: 1fr;
+    }
+    .cf__card {
+        padding: 22px;
+    }
+    .cf__title {
+        font-size: 24px;
+    }
+}
