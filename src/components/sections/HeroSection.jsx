@@ -33,7 +33,7 @@ const HeroSection = () => {
               pauseDuration={1500}
               showCursor={true}
               cursorCharacter="|"
-              textColors={["#ffcc00", "#ffffff", "#026887"]}
+              textColors={["#ffcc00", "#ffffff", "#00c3ffff"]}
             />
           </div>
         </div>
