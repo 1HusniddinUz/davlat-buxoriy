@@ -58,9 +58,9 @@ const Navbar = () => {
                         onChange={(e) => i18n.changeLanguage(e.target.value)}
                         defaultValue="en"
                     >
-                        <option value="uz">🇺🇿 O'zbek</option>
-                        <option value="ru">🇷🇺 Русский</option>
                         <option value="en">🇬🇧 English</option>
+                        <option value="ru">🇷🇺 Русский</option>
+                        <option value="uz">🇺🇿 O'zbek</option>
                         <option value="fr">🇫🇷 Français</option>
                         <option value="tr">🇹🇷 Türkçe</option>
                     </select>
@@ -125,9 +125,9 @@ const Navbar = () => {
                         onChange={(e) => i18n.changeLanguage(e.target.value)}
                         defaultValue="en"
                     >
-                        <option value="uz">🇺🇿 O'zbek</option>
-                        <option value="ru">🇷🇺 Русский</option>
                         <option value="en">🇬🇧 English</option>
+                        <option value="ru">🇷🇺 Русский</option>
+                        <option value="uz">🇺🇿 O'zbek</option>
                         <option value="en">🇫🇷 Français</option>
                         <option value="en">🇹🇷 Türkçe</option>
                     </select>
