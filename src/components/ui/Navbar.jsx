@@ -77,6 +77,7 @@ const Navbar = () => {
 
                     <div className="NavBottom" aria-hidden={open ? "true" : "false"}>
                         <ul>
+                            <a href="#HeroSection"><li>{t(`gallery`)}</li></a>
                             <a href="#Products"><li>{t(`arts`)}</li></a>
                             {/* Marketplaces */}
                             <a href="#AboutUs"><li>{t(`about`)}</li></a>
@@ -107,6 +108,7 @@ const Navbar = () => {
                     </div>
 
                     <ul className="nav__panel__links">
+                            <a href="#HeroSection"><li>{t(`gallery`)}</li></a>
                             <a href="#Products"><li>{t(`arts`)}</li></a>
                             {/* Marketplaces */}
                             <a href="#AboutUs"><li>{t(`about`)}</li></a>
@@ -123,8 +125,8 @@ const Navbar = () => {
                         <option value="en">🇬🇧 English</option>
                         <option value="ru">🇷🇺 Русский</option>
                         <option value="uz">🇺🇿 O'zbek</option>
-                        <option value="en">🇫🇷 Français</option>
-                        <option value="en">🇹🇷 Türkçe</option>
+                        <option value="fr">🇫🇷 Français</option>
+                        <option value="tr">🇹🇷 Türkçe</option>
                     </select>
                     </div>
                 </div>
