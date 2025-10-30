@@ -6,12 +6,13 @@ const translationsUz = {
   contact: `Bog'lanish uchun`,
 
   hero_text1: "BUXORO MINIATURA MAKTABINING ENG YORQIN VAKILI", 
-  hero_text2: "Miniaturist", 
-  hero_text3: "Jivopisets", 
-  hero_text4: "Kolligraf",
+  hero_name: `TOSHEV DAVLAT BO‘RONOVICH`, // 🆕 qo‘shildi
+  hero_text2: "MINIATYURA USTASI", 
+  hero_text3: "NAQQOSH", 
+  hero_text4: "XATTOT",
 
   productH3: `Miniatyura kolleksiyasi`,
-  productP: `Minimal, nafis, galereya darajasida taqdim etilgan kartalar. Sifat nafislikda.`,
+  productP: `Minimal, nafis, galereya darajasida taqdim etilgan san'at asarlari . Sifat nafislikda.`,
 
   // 🔽 Har bir product uchun tarjima
   product1_name: `SULAYMON ALAYHISSALOM`,

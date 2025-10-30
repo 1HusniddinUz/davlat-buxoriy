@@ -1,4 +1,3 @@
-/* 🌆 Desktop (default) versiya */
 #HeroSection {
   padding-top: 180px;
   width: 100%;
@@ -31,15 +30,14 @@
   position: relative;
   z-index: 1;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  align-items: end;
+  bottom: 12%;
   height: 100%;
   padding-left: 200px;
   text-align: left;
   font-family: "Poppins", sans-serif;
 }
 
-/* ✨ TextType uchun qo‘shimcha stillar */
 .text-wrapper {
   max-width: 1200px;
 }
@@ -64,40 +62,112 @@
   opacity: 0;
 }
 
-/* 📱 Tablet (≤1024px) uchun responsive */
+.static-text {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.yellow-text {
+  color: #ffcc00;
+}
+
+.white-text {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* 🎨 RANGLI TAYOQCHALAR */
+.color-bar {
+  width: 6px;
+  height: 60px;
+  border-radius: 6px;
+  display: inline-block;
+  animation: slideIn 0.7s ease forwards;
+}
+
+.yellow-bar {
+  height: 100px;
+  background-color: #ffcc00;
+  box-shadow: 0 0 12px #ffcc00;
+}
+
+.white-bar {
+  background-color: #ffffff;
+  box-shadow: 0 0 12px #ffffff;
+}
+
+.blue-bar {
+  background-color: #00c3ff;
+  box-shadow: 0 0 12px #00c3ff;
+}
+
+@keyframes slideIn {
+  from {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+.color-text-wrap {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* === Artist name === */
+.artist-name {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease-in-out;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: 10px;
+}
+
+.artist-name.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.professions {
+  margin-top: 10px;
+}
+
+/* 📱 Responsive */
 @media (max-width: 1024px) {
   #HeroSection .container {
     height: 80vh;
-    border-radius: 15px;
   }
 
   .content {
     padding-left: 100px;
   }
 
-  .text-type {
+  .text-type,
+  .static-text,
+  .artist-name {
     font-size: 2.8rem;
   }
 
-  .text-type__cursor {
-    font-size: 2.8rem;
+  .color-bar {
+    height: 40px;
+    width: 5px;
   }
 }
 
-/* 📲 Mobil (≤768px) uchun responsive */
 @media (max-width: 768px) {
   #HeroSection {
     padding-top: 80px;
-  }
-
-  #HeroSection .container {
-    width: 95%;
-    height: 70vh;
-    border-radius: 12px;
-  }
-
-  .background-video {
-    filter: brightness(0.6);
   }
 
   .content {
@@ -107,36 +177,30 @@
     text-align: center;
   }
 
-  .text-type {
+  .text-type,
+  .static-text,
+  .artist-name {
     font-size: 2rem;
-    font-weight: 600;
   }
 
-  .text-type__cursor {
-    font-size: 2rem;
+  .color-bar {
+    height: 35px;
   }
 }
 
-/* 📱 Kichik telefonlar (≤480px) uchun responsive */
 @media (max-width: 480px) {
   #HeroSection {
     padding-top: 60px;
   }
 
-  #HeroSection .container {
-    height: 60vh;
-  }
-
-  .content {
-    padding: 0 15px;
-  }
-
-  .text-type {
+  .text-type,
+  .static-text,
+  .artist-name {
     font-size: 1.5rem;
     line-height: 1.3;
   }
 
-  .text-type__cursor {
-    font-size: 1.5rem;
+  .color-bar {
+    height: 28px;
   }
 }

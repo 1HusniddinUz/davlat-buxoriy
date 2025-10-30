@@ -96,7 +96,7 @@ const Navbar = () => {
                     <li><a href="https://www.ozon.ru/product/modulnaya-kartina-16-5h28-5-sm-3043088743/" target="_blank">OZON</a></li>
                     <li><a href="https://uzum.uz/uz/product/qolda-chizilgan-rasm-2069197" target="_blank">Uzum Market</a></li>
                     <li><a href="https://market.yandex.uz/card/kartina-narisovannaya-vruchnuyu--garmoniya-iskusstva-vdokhnoveniya-i-emotsiy/4734854570?do-waremd5=VzdL6eFGjrHOmqq-MsxxNw&businessId=216456918&ogV=-6" target="_blank">Yandex Market</a></li>
-                    <li><a href="https://www.wildberries.ru/catalog/588374010/detail.aspx?targetUrl=GP" target="_blank">Wildberries</a></li>
+                    <li><a href="https://www.wildberries.ru/catalog/588374010/" target="_blank">Wildberries</a></li>
                   </ul>
                 )}
               </li>
@@ -134,7 +134,7 @@ const Navbar = () => {
 
             {/* Mobil Marketplaces */}
             <li className="dropdown-mobile">
-              <span>{t("marketplaces")}</span>
+              <span>{t("Marketplaces")}</span>
               <ul>
                 <li><a href="https://www.ozon.ru/product/modulnaya-kartina-16-5h28-5-sm-3043088743/" target="_blank">OZON</a></li>
                 <li><a href="https://uzum.uz/uz/product/qolda-chizilgan-rasm-2069197" target="_blank">Uzum Market</a></li>
