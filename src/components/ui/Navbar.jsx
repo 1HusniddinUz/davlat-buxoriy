@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../../assets/Navbar.css";
 import { useTranslation } from "react-i18next";
-
+import logo from "../../../public/logo.png"
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -39,12 +39,7 @@ const Navbar = () => {
                 <div className="container">
                     <div className="NavTop">
                         <div className="social_links" role="group" aria-label="Social links" data-aos="fade-right" data-aos-delay="80">
-                            <a href="https://www.instagram.com/davlattoshev" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                                <i className="fa-brands fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://t.me/davlattoshev" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
-                                <i className="fa-brands fa-telegram" aria-hidden="true"></i>
-                            </a>
+                            <img src={logo} alt="DAVLAT BUXORIY LOGOTIP" />
                         </div>
 
                         <div className="logo_box" data-aos="zoom-in" data-aos-delay="100">
