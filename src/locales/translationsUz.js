@@ -27,7 +27,7 @@ const translationsUz = {
   product4_name: `SHAMSUL QAMAR`,
   product4_info: `Yorug‘lik va go‘zallik ramzi`,
 
-  product5_name: `2×27`,
+  product5_name: `20×27`,
   product5_info: "Minimal o‘lchamda nafis detal",
 
   product6_name: `18×29`,

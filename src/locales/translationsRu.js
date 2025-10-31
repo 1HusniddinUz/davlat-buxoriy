@@ -25,7 +25,7 @@ const translationsRu = {
   product4_name: "ШАМСУЛ КАМАР",
   product4_info: "Символ света и красоты",
 
-  product5_name: "2×27",
+  product5_name: "20×27",
   product5_info: "Изящество в минимализме",
 
   product6_name: "18×29",

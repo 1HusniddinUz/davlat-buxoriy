@@ -25,7 +25,7 @@ const translationsTr = {
   product4_name: "ŞEMSÜL KAMER",
   product4_info: "Işığın ve güzelliğin sembolü",
 
-  product5_name: "2×27",
+  product5_name: "20×27",
   product5_info: "Küçük ölçekte zarafet",
 
   product6_name: "18×29",

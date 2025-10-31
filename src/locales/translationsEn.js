@@ -25,7 +25,7 @@ const translationsEn = {
   product4_name: "SHAMSUL QAMAR",
   product4_info: "A symbol of light and beauty",
 
-  product5_name: "2×27",
+  product5_name: "20×27",
   product5_info: "Grace in minimal dimensions",
 
   product6_name: "18×29",
