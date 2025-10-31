@@ -37,7 +37,9 @@ const translationsTr = {
   product8_name: "15×25",
   product8_info: "Minyatür formda mükemmellik",
 
-  aboutUsP: `Toshev Davlat Boronovich, Özbekistan Cumhuriyeti Zanaatkârlar Birliği üyesidir ve uzun yıllardır Buhara’da halk sanatı ve minyatür alanında aktif olarak çalışmaktadır. Kurduğu “Usta-Çırak Uygulamalı Sanatlar Merkezi”, gençlere ve engelli çocuklara ücretsiz eğitim vermektedir. Merkez, geleneksel zanaatların korunması, milli değerlere saygı ve genç ustaların yetiştirilmesinde önemli bir rol oynamaktadır. Davlat Boronovich, fedakârlığı, çalışkanlığı ve öncülüğüyle tanınır. Öğrencilerine yalnızca sanatı değil, insanlık, merhamet ve vatan sevgisi gibi değerleri de aşılamaktadır. 2025 yılında Özbekistan Cumhurbaşkanı tarafından “Şuhrat” Madalyası ile ödüllendirilmiştir.`,
+  aboutUsP: `Toshev Davlat Bo‘ronovich, Buhara’da geleneksel uygulamalı sanatlar ve minyatür sanatını sürdüren bir ressam, nakkaş ve hattattır. Kendisinin kurduğu “Ustoz-Şogird Uygulamalı Sanatlar Merkezi”nde gençler, engelli çocuklar dâhil, ücretsiz eğitim almakta ve millî değerlere saygı ruhunda yetiştirilmektedir.
+Onun sanatının özü, Yaratıcıya duyulan sevgi ve O’nu anlama arzusudur. Eserlerinde evrensel insani değerler ile İslam dininin barışçıl ve hikmet dolu özünü yansıtmaktadır.
+2025 yılında Özbekistan Cumhuriyeti Cumhurbaşkanı kararnamesiyle “Şuhrat” Madalyası ile ödüllendirilmiştir. Günümüzde ise öğrencileriyle birlikte Buhara’nın zengin sanat geleneklerini çağdaş sanatsal arayışlarla uyum içinde sürdürmektedir.`,
   aboutUsSpan: "Usta-Çırak Merkezi Kurucusu",
   managerName: "Davlat Toshev",
 

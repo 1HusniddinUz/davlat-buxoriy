@@ -4,6 +4,8 @@
 }
 
 #HeroSection .container {
+  z-index: 1;
+  position: relative;
   width: 90%;
   max-width: 1920px;
   height: 90vh;
@@ -11,9 +13,20 @@
   position: relative;
   overflow: hidden;
   border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.hero_overlay
+{
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 100%;  
+  background-color: rgb( 0 , 0 , 0 , 0.2);
 }
 
-/* 🎬 Video fon */
 .background-video {
   position: absolute;
   top: 0;
@@ -22,10 +35,10 @@
   height: 100%;
   object-fit: cover;
   z-index: 0;
-  filter: brightness(0.5) contrast(1.1);
+  filter: brightness(1) contrast(1.1);
+  -webkit-filter: brightness(1) contrast(1.1);
 }
-
-/* 💬 Kontent joylashuvi */
+/* 
 .content {
   position: relative;
   z-index: 1;
@@ -82,7 +95,6 @@
   gap: 15px;
 }
 
-/* 🎨 RANGLI TAYOQCHALAR */
 .color-bar {
   width: 6px;
   height: 60px;
@@ -124,7 +136,6 @@
   gap: 15px;
 }
 
-/* === Artist name === */
 .artist-name {
   opacity: 0;
   transform: translateY(20px);
@@ -143,7 +154,6 @@
   margin-top: 10px;
 }
 
-/* 📱 Responsive */
 @media (max-width: 1024px) {
   #HeroSection .container {
     height: 80vh;
@@ -203,4 +213,4 @@
   .color-bar {
     height: 28px;
   }
-}
+} */

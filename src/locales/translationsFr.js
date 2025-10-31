@@ -37,7 +37,9 @@ const translationsFr = {
   product8_name: "15×25",
   product8_info: "La perfection en miniature",
 
-  aboutUsP: `Toshev Davlat Boronovich est membre de l’Association des artisans de la République d’Ouzbékistan. Depuis de nombreuses années, il œuvre à Boukhara dans le domaine de l’art appliqué et de la miniature. Son “Centre d’art appliqué Maître-Apprenti” offre une formation gratuite aux jeunes, y compris aux enfants handicapés. Ce centre joue un rôle important dans la préservation des traditions artisanales séculaires, le respect des valeurs nationales et la formation de jeunes maîtres indépendants. Reconnu pour son dévouement, sa diligence et son engagement, il transmet à ses élèves non seulement l’art, mais aussi les valeurs humaines et le patriotisme. En 2025, il a été honoré de la médaille “Shuhrat” par le Président de l’Ouzbékistan.`,
+  aboutUsP: `Toshev Davlat Bo‘ronovich est un artiste, ornemaniste et calligraphe qui perpétue à Boukhara les traditions des arts appliqués et de la miniature. Au « Centre d’art appliqué Ustoz-Shogird » qu’il a fondé, les jeunes, y compris les enfants en situation de handicap, reçoivent une éducation gratuite et sont formés dans un esprit de respect des valeurs nationales.
+Le cœur de sa création réside dans l’amour du Créateur et la quête de Sa compréhension. Ses œuvres reflètent les valeurs humaines universelles et révèlent l’essence pacifique et sage de l’islam.
+En 2025, par décret du Président de la République d’Ouzbékistan, il a été décoré de la médaille « Shuhrat » (Gloire). Aujourd’hui, avec ses élèves, il continue d’harmoniser les riches traditions artistiques de Boukhara avec les recherches artistiques contemporaines.`,
   aboutUsSpan: "Fondateur du Centre Maître-Apprenti",
   managerName: "Davlat Toshev",
 

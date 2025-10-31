@@ -37,7 +37,9 @@ const translationsEn = {
   product8_name: "15×25",
   product8_info: "Perfection in miniature form",
 
-  aboutUsP: `Toshev Davlat Boronovich is a member of the Craftsmen Association of the Republic of Uzbekistan, who has been actively engaged in the field of folk applied arts and miniature painting in Bukhara for many years. Through the “Master-Apprentice Center of Applied Arts” founded by him, free education is provided for young people, including children with disabilities. The center plays an important role in preserving traditional craftsmanship, nurturing respect for national values, and developing young talents into independent masters. Davlat Boronovich stands out for his dedication, hard work, and initiative. He not only teaches artistic skills but also instills values of humanity, compassion, and patriotism in his students. His contributions have been duly recognized by society, and in 2025 he was awarded the “Shuhrat” (Glory) Medal by the President of Uzbekistan.`,
+  aboutUsP: `Toshev Davlat Bo‘ronovich is an artist, ornamental painter, and calligrapher who continues the traditions of applied arts and miniature painting in Bukhara. At the “Ustoz-Shogird Applied Art Center” he founded, young people, including children with disabilities, receive free education and are nurtured in the spirit of respect for national values.
+The essence of his creativity lies in love for the Creator and the quest to understand Him. His works reflect universal human values and reveal the peaceful and wise essence of Islam.
+In 2025, by the Decree of the President of the Republic of Uzbekistan, he was awarded the “Shuhrat” (Glory) Medal. Today, together with his students, he continues to harmonize Bukhara’s rich artistic traditions with contemporary artistic exploration.`,
   aboutUsSpan: "Founder of the Master-Apprentice Center",
   managerName: "Davlat Toshev",
 

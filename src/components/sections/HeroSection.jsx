@@ -1,31 +1,32 @@
 import { useEffect, useState } from "react";
 import hero_bg from "../../assets/videos/hero_bg.mp4";
 import "../../assets/HeroSection.css";
-import TextType from "../ui/TextType";
+// import TextType from "../ui/TextType";
 import { useTranslation } from "react-i18next";
 
 const HeroSection = () => {
   const { t, i18n } = useTranslation();
   const [stage, setStage] = useState(0);
-  const [hasAnimated, setHasAnimated] = useState(false);
+  // const [hasAnimated, setHasAnimated] = useState(false);
 
-  useEffect(() => {
-    if (!hasAnimated) {
-      const timers = [
-        setTimeout(() => setStage(1), 1000),
-        setTimeout(() => setStage(2), 5500),
-        setTimeout(() => setStage(3), 6500),
-      ];
-      setHasAnimated(true);
-      return () => timers.forEach(clearTimeout);
-    } else {
-      setStage(3);
-    }
-  }, [hasAnimated, i18n.language]);
+  // useEffect(() => {
+  //   if (!hasAnimated) {
+  //     const timers = [
+  //       setTimeout(() => setStage(1), 1000),
+  //       setTimeout(() => setStage(2), 5500),
+  //       setTimeout(() => setStage(3), 6500),
+  //     ];
+  //     setHasAnimated(true);
+  //     return () => timers.forEach(clearTimeout);
+  //   } else {
+  //     setStage(3);
+  //   }
+  // }, [hasAnimated, i18n.language]);
 
   return (
     <div id="HeroSection">
       <div className="container">
+        <div className="hero_overlay"></div>
         <video
           className="background-video"
           src={hero_bg}
@@ -35,9 +36,8 @@ const HeroSection = () => {
           playsInline
         ></video>
 
-        <div className="content">
+        {/* <div className="content">
           <div className="text-wrapper">
-            {/* === HERO_TEXT1 === */}
             {stage >= 1 &&
               (hasAnimated ? (
                 <h1 className="text-type static-text yellow-text">
@@ -59,7 +59,6 @@ const HeroSection = () => {
                 </div>
               ))}
 
-            {/* === HERO_NAME === */}
             <h1
               className={`artist-name ${
                 stage >= 2 ? "visible" : ""
@@ -69,7 +68,6 @@ const HeroSection = () => {
               {t("hero_name")}
             </h1>
 
-            {/* === PROFESSIONS === */}
             {stage >= 3 && (
               <div className="professions">
                 <div className="color-text-wrap">
@@ -93,7 +91,7 @@ const HeroSection = () => {
               </div>
             )}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
